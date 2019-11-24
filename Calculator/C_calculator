@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+char (op);
+    int sub;
+    int num1,num2;
+printf("calculator using addition,subtraction,division,multiplication and modulus""\n");
+printf("enter an operand function like=,+,-,/,*,%""\n");
+scanf("%c",&op);
+
+printf("enter your first number:");
+scanf("%d",&num1);
+
+printf("enter your second number:");
+scanf("%d",&num2);
+
+if(op=='+')
+{
+printf("\nnum1+num2=%d",num1+num2);
+}
+if(op=='-')
+{
+printf("\nnum1-num2=%d",num1-num2);
+    }
+if(op=='*')
+{
+printf("\nnum1*num2=%d",num1*num2);
+}
+if(op=='/')
+{
+printf("\nnum1/num2=%d",num1/num2);
+}
+if(op=='%')
+{
+printf("\nnum1%num2=%d",num1%num2);
+}
+return 0;
+}
